@@ -1,0 +1,401 @@
+.rem {
+	
+	body {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	.container {
+		width: 100%;
+		margin: 1rem auto;
+
+		@media (min-width: 34em) {
+				max-width: 36rem;
+		}
+
+		@media (min-width: 48em) {
+				max-width: 45rem;
+		}
+
+		@media (min-width: 62em) {
+				max-width: 60rem;
+		}
+
+		@media (min-width: 75em) {
+				max-width: 72rem;
+		}
+
+	}
+
+	.row {	
+		@media (min-width: 34em) {
+			display: flex;
+		}
+	}
+
+	.col {
+		padding: 0 .5rem;
+	}
+
+	.left {
+
+		@media (min-width: 34em) {
+				flex-basis: calc(50% - 1rem);
+		}
+
+		@media (min-width: 48em) {
+				flex-basis: calc(66% - 1rem);
+		}
+
+		@media (min-width: 62em) {
+				flex-basis: calc(75% - 1rem);
+		}
+	}
+
+	.right {
+
+		@media (min-width: 34em) {
+				flex-basis: calc(50% - 1rem);
+		}
+
+		@media (min-width: 48em) {
+				flex-basis: calc(34% - 1rem);
+		}
+
+		@media (min-width: 62em) {
+				flex-basis: calc(25% - 1rem);
+		}
+	}
+
+	img {
+		width: 100%;
+		max-width: 15rem;
+		float: left;
+		margin: 0 1rem 1rem 0;
+	}
+
+	p, h1, h2, h3, h4, h5, h6, ul, ol {
+		margin-bottom: 1.5rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+	h2 {
+		font-size: 1.75rem;
+		line-height: 2.5rem;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+
+	h4 {
+		font-size: 1.25rem;
+		line-height: 1.5rem;
+	}
+	
+	ul li {
+		margin-bottom: .5rem;
+		margin-left: 1rem;
+	}
+	
+	ul ul {
+		margin-top: .5rem;
+		margin-bottom: .5rem;
+	}
+	
+	.multiline-heading {
+		max-width: 30rem;
+	}
+}
+
+.em {
+
+	body {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+
+	.container {
+		width: 100%;
+		margin: 1em auto;
+
+		@media (min-width: 34em) {
+				max-width: 36em;
+		}
+
+		@media (min-width: 48em) {
+				max-width: 45em;
+		}
+
+		@media (min-width: 62em) {
+				max-width: 60em;
+		}
+
+		@media (min-width: 75em) {
+				max-width: 72em;
+		}
+
+	}
+
+	.row {	
+		@media (min-width: 34em) {
+			display: flex;
+		}
+	}
+
+	.col {
+		padding: 0 .5em;
+	}
+
+	.left {
+
+		@media (min-width: 34em) {
+				flex-basis: calc(50% - 1em);
+		}
+
+		@media (min-width: 48em) {
+				flex-basis: calc(66% - 1em);
+		}
+
+		@media (min-width: 62em) {
+				flex-basis: calc(75% - 1em);
+		}
+	}
+
+	.right {
+
+		@media (min-width: 34em) {
+				flex-basis: calc(50% - 1em);
+		}
+
+		@media (min-width: 48em) {
+				flex-basis: calc(34% - 1em);
+		}
+
+		@media (min-width: 62em) {
+				flex-basis: calc(25% - 1em);
+		}
+	}
+
+	img {
+		width: 100%;
+		max-width: 15em;
+		float: left;
+		margin: 0 1em 1em 0;
+	}
+
+	p, h1, h2, h3, h4, h5, h6, ul, ol {
+		margin-bottom: 1.5em;
+	}
+	
+	p {
+		font-size: 1em;
+	}
+
+	h1 {
+		font-size: 2em;
+		line-height: 1.5em;
+	}
+
+	h2 {
+		font-size: 1.75em;
+		line-height: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+
+	h4 {
+		font-size: 1.25em;
+		line-height: 1.2em;
+	}
+
+	ul li {
+		margin-bottom: .5em;
+		margin-left: 1em;
+	}
+	
+	ul ul {
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
+	
+	.multiline-heading {
+		max-width: 30rem;
+	}
+}
+
+.px {
+
+	body {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	.container {
+		width: 100%;
+		margin: 16px auto;
+
+		@media (min-width: 544px) {
+				max-width: 576px;
+		}
+
+		@media (min-width: 768px) {
+				max-width: 720px;
+		}
+
+		@media (min-width: 992px) {
+				max-width: 960px;
+		}
+
+		@media (min-width: 1200px) {
+				max-width: 1152px;
+		}
+
+	}
+
+	.row {	
+		@media (min-width: 544px) {
+			display: flex;
+		}
+	}
+
+	.col {
+		padding: 0 8px;
+	}
+
+	.left {
+
+		@media (min-width: 544px) {
+				flex-basis: calc(50% - 16px);
+		}
+
+		@media (min-width: 768px) {
+				flex-basis: calc(66% - 16px);
+		}
+
+		@media (min-width: 992px) {
+				flex-basis: calc(75% - 16px);
+		}
+	}
+
+	.right {
+
+		@media (min-width: 544px) {
+				flex-basis: calc(50% - 16px);
+		}
+
+		@media (min-width: 768px) {
+				flex-basis: calc(34% - 16px);
+		}
+
+		@media (min-width: 992px) {
+				flex-basis: calc(25% - 16px);
+		}
+	}
+
+	img {
+		width: 100%;
+		max-width: 240px;
+		float: left;
+		margin: 0 16px 16px 0;
+	}
+
+	p, h1, h2, h3, h4, h5, h6, ul, ol {
+		margin-bottom: 24px;
+	}
+
+	h1 {
+		font-size: 32px;
+		line-height: 48px;
+	}
+
+	h2 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+
+	h3 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	h4 {
+		font-size: 20px;
+		line-height: 24px;
+	}	
+
+	ul li {
+		margin-bottom: 8px;
+		margin-left: 16px;
+	}
+	
+	ul ul {
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+	
+	.multiline-heading {
+		max-width: 480px;
+	}
+}
+
+ul {
+	list-style-type: disc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.controls {
+  background: #ddd;
+	text-align: center;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  font-size: 18px;
+
+	.flex {
+		display: flex;
+		justify-content: center;
+		
+		> div {
+			margin: 0 10px;
+		}
+		
+		@media (max-width: 520px) {
+			display: block;
+			
+			> div {
+				margin: 10px;
+			}
+		}
+	}
+	
+	> * {
+    vertical-align: middle;
+  }
+	
+	input {
+		padding: 3px 6px;
+	}
+	
+	label {
+		margin-right: 3px;
+	}
+}
